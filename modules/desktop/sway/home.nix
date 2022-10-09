@@ -39,6 +39,9 @@ in
             resume 'swaymsg "output * dpms on"' \
             before-sleep '${pkgs.swaylock-fancy}/bin/swaylock-fancy'
         ''; always = true;}                            # Auto lock\
+        {command = "${pkgs.blueman}/bin/blueman-applet"; always = true;}
+        {command = "${pkgs.networkmanagerapplet}/bin/nm-applet --indicator"; always = true;}
+
       ];
 
       bars = [];                                        # No bar because using Waybar

@@ -38,13 +38,13 @@
   };
 
   services = {                            # Applets
-    blueman-applet.enable = true;         # Bluetooth
-#   network-manager-applet.enable = true; # Network
-#   cbatticon = {
-#     enable = true;
-#     criticalLevelPercent = 10;
-#     lowLevelPercent = 20;
-#     iconType = null;
-#   };
+   blueman-applet.enable = true;         # Bluetooth
+   network-manager-applet.enable = true; # Network
+   cbatticon = {
+     enable = true;
+     criticalLevelPercent = 10;
+     lowLevelPercent = 20;
+     iconType = null;
+   };
   };
 }
