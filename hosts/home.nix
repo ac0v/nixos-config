@@ -56,6 +56,7 @@
       unrar             # Rar files
 
       # General configuration
+      cached-nix-shell
       #git              # Repositories
       #killall          # Stop Applications
       #nano             # Text Editor
